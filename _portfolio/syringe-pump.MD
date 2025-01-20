@@ -29,8 +29,8 @@ gallery:
 7. To continue dispensing the liquid, press the power button again so it stays lowered.
 8. Once all liquid possible has been dispensed, the LED will turn red and the actuation will stop.
 
-
-
+ 
+ 
 
 | Off-the Shelf Parts                | Quantity |
 |------------------------------------|----------|
@@ -68,8 +68,8 @@ gallery:
 | Housing                               | 1        |
 | Labeled Front Plate                   | 1        |
 
-
-
+ 
+ 
 
 # Arduino Code
 [Syringe Pump Arduino Code - PDF](https://github.com/alice-heiden/alice-heiden.github.io/assets/img/pump-arduino-code.pdf)
