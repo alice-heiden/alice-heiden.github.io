@@ -65,7 +65,7 @@ gallery:
 | Labeled Front Plate                   | 1        |
 
 
-#Arduino Code
+# Arduino Code
 [Syringe Pump Arduino Code - PDF](https://github.com/alice-heiden/alice-heiden.github.io/assets/img/pump-arduino-code.pdf)
 
 
