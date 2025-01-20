@@ -23,4 +23,4 @@ Alice is proficient in using various CAD modeling software and programming langu
 * Javascript
 
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+![Alice Heiden](/assets/img/IMG_4310.jpg)
