@@ -12,8 +12,8 @@ excerpt: "Alice Heiden is a biomedical engineer passionate about how the human e
 feature_row:
   - image_path: assets/img/syringe-pump.jpg
     alt: "Syringe Pump"
-    title: "DIY Syringe Pump"
-    excerpt: "DIY syringe pump with flow rate capabilities from 1 uL/min to 10 mL/min"
+    title: "DIY Syringe Pump!"
+    excerpt: "DIY syringe pump with flow rate capabilities from 1 uL/min to 10 mL/min and LED indicator"
 ---
 
 {% include feature_row %}
