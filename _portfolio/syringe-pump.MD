@@ -17,6 +17,8 @@ gallery:
 * **Large Range of Flow Rates**: This syringe pump uses microstepping capabilities to be able to pump liquid at flow rates as low as 1 uL/min and as high as 10 mL/min!
 * **LED Indicator & Automatic Stopping**: An LED light sits outaside of the casing to indicate if the pump is on and running, paused, or out of liquid. When the syringe runs out of liqud, the motor will automatically stop due to the momentary switch button that in integrated into the pump system.
 
+
+
 ## Instructions for Use
 1. Ensure that the power supply is connected to the syringe pump. The LED light should be blue.
 2. Place the syringe in the supports with the tip that outputs liquid at the far right end.
@@ -26,6 +28,8 @@ gallery:
 6. To pause the liquid dispense, press the power button again so it is raised. The LED light should show blue.
 7. To continue dispensing the liquid, press the power button again so it stays lowered.
 8. Once all liquid possible has been dispensed, the LED will turn red and the actuation will stop.
+
+
 
 
 | Off-the Shelf Parts                | Quantity |
@@ -63,6 +67,8 @@ gallery:
 | Motor Mounting Plate w/ Hub Setting   | 1        |
 | Housing                               | 1        |
 | Labeled Front Plate                   | 1        |
+
+
 
 
 # Arduino Code
