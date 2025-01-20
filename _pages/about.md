@@ -23,4 +23,4 @@ Alice is proficient in using various CAD modeling software and programming langu
 * Javascript
 
 
-![Alice Heiden](/assets/img/IMG_4310.jpg)
+![Alice Heiden](./assets/img/IMG_4310.JPG)
