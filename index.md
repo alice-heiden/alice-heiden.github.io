@@ -1,26 +1,19 @@
 ---
-title: "Example Web Page"
+title: "Portfolio Website"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_image: /assets/img/medical-device.jpeg
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "Alice Heiden is a biomedical engineer passionate about how the human experience interacts with medical device usage and deisgn. Her area of expertise is data analysis, with an emphasis on how current medical device deisgns and protocols can be changed to improve patient and surgeon experience."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/img/syringe-pump.jpg
+    alt: "syringe pump"
+    title: "DIY Syringe Pump"
+    excerpt: "DIY syringe pump with flow rate capabilities from 1 uL/min to 10 mL/min"
 ---
 
 {% include feature_row %}
