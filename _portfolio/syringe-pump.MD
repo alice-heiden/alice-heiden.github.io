@@ -2,11 +2,11 @@
 title: "DIY Syringe Pump"
 excerpt: "A DIY syringe pump fit for 10-20 mL syringes with flow rate capability from 1 uL/min to 10 mL/min."
 header:
-  image: /assets/img/syringe-pump.jpg
+  image: /assets/img/pump-cad.jpg
   teaser: /assets/img/syringe-pump.jpg
 gallery:
-  - image_path: assets/img/syringe-pump.jpg
-  - image_path: assets/img/syringe-pump.jpg
+  - image_path: assets/img/pump-cad.jpg
+  - image_path: assets/img/pump-wiring.jpg
   - image_path: assets/img/syringe-pump.jpg
    
 ---
