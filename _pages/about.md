@@ -13,8 +13,7 @@ Alice is seeking a full-time engineering position focused on user-centered desig
  
 ## Work Experience
 
-### Medtronic, Surgical Innovations
-###### June 2024-August 2024
+### Medtronic, Surgical Innovations - June 2024-August 2024
 Released Product Engineering Quality Intern, North Haven, CT
 * Analyzed complaints across 8 FDA regulated devices within the electrosurgical portfolio; identified 2 novel trends and proposed potential design, manufacturing, and quality control changes to increase field reliability.
 * Reviewed risk management documentation for Reliacatch™; identified the need for 20+ updates and worked cross-functionally with medical safety, regulatory affairs, and stability personnel to complete them.
