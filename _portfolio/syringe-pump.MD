@@ -15,7 +15,7 @@ gallery:
 
 * **Syringe Compatibility**: Using a novel V-shaped cutout, syringes sized between 10-20 mL are able to slide in comfortably.
 * **Large Range of Flow Rates**: This syringe pump uses microstepping capabilities to be able to pump liquid at flow rates as low as 1 uL/min and as high as 10 mL/min!
-* **LED Indicator & Automatic Stopping**: An LED light sits outaside of the casing to indicate if the pump is on and running, paused, or out of liquid. When the syringe runs out of liqud, the motor will automatically stop due to the momentary switch button that in integrated into the pump system.
+* **LED Indicator & Automatic Stopping**: An LED light sits outaside of the casing to indicate if the pump is on and running, paused, or out of liquid. When the syringe runs out of liqud, the motor will automatically stop due to the momentary switch button that is integrated into the pump system.
 
 
 
