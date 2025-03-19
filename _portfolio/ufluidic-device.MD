@@ -1,3 +1,4 @@
+---
 title: "Microfluidic Device for Pinch Flow Fractionation"
 excerpt: "A self-designed ufluidic device that is designed to separate molecules of 125-150 um and 425-500um in solution."
 header:
@@ -34,4 +35,4 @@ gallery:
 
 
 ## Supplemental Images
-{% include gallery}
+{% include gallery %}
