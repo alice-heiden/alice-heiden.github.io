@@ -24,19 +24,35 @@ The combination of these innovations has led to researchers being able to detect
 
 ### CAD Model
 
-The CAD model for my device was created in Fusion360 (Autodesk). The device was designed to be 25 x 75 mm to fit into a standard micropscope slide. There was also a 3 mm clearance on all sides to allow for the device to bond to the slide and minimize leaking. 2 inlet and 3 outlet barbs were modeled in the CAD model as well. From the two inlet barbs was two paths, 0.75 mm in width. This minimizes the stacking of molecules as it is 1.5 times the diameter of the largest possible molecule that this device was designed to sort. The two paths then meet at the pinched segment, which is 0.60 mm wide (1.2 times the maximum particle width) and 1.25 mm long (slighly larger than 2x the largest particle diameter). [1] From the pinched segment, the fluid flows into the wide segment, which is 19 mm wide. Based on the width of the pinched and broad sections, the theroetical position of each particle's flow was calculated. The outlet channels were 5.25 mm wide, which was decided based on determining the midpoint between the particle positions. All of the outlets were intended to have the same length of about 19 mm, which was determined based on the shortest path from the beginning of the outlet channel to the furthest outlet barb. All other paths were made more torutuous to approximate this length. All outlet channels tapered to a width of 0.75 mm over the length of 5.00 mm.
+The CAD model for my device was created in Fusion360 (Autodesk). The device was designed to be 25 x 75 mm to fit into a standard micropscope slide. There was also a 3 mm clearance on all sides to allow for the device to bond to the slide and minimize leaking. 2 inlet and 3 outlet barbs were modeled in the CAD model as well. The CAD design created a negative model of which material would be poured in to cast the actual device.
 
 ### Print & Cure Mold
 
+The model was printed on a Form 3 SLA printer using black resin (Formlabs). The CAD design was exported into an STL file, which was then sliced and converted into g-code using PreForm software (Formlabs). The Form 3 printer offers a minimum layer resolution of 25 μm along the z-axis and 80 μm along the x- and y-axes, ensuring high precision in the printing process. [2] The print was washed for 5 minutes in the FormWash, then 5 minutes in stationary isopropyl alcohol, IPA (Formlabs). The mold them dried for 30 minutes, at an angle that ensured no IPA would pool in the print, and was then UV cured for 60 seconds at room temperature before removing the supports.
+
 ### Parylene Device
+
+The cured prints were transferred to a Labcoter PDS 2010 parylene deposition machine (Specialty Coating Systems), where they were coated with parylene-C following the manufacturer’s guidelines. A total of 2 grams of parylene-C was used to coat all prints, with all other parameters automated by the Labcoter. [3]
 
 ### Cast the PDMS
 
+The prints were then placed in a plastic petri dish, and a mixture of polydimethyl siloxane (PDMS, Sylgard 184; Ellsworth Adhesive Company) elastomer and curing agent was prepared at a 10:1 weight ratio and poured onto the prints. This mixture was degassed for 30 minutes in a vacuum chamber and cured in an oven at 80 °C for 3 hours before demolding. [3]
+
 ### Plasma Bond Glass Slide
 
-
+After demolding, the PDMS devices were bonded to glass coverslips using a PlasmaFlo PDC-FMG plasma cleaner (Harrick Plasma) and sterilized in an autoclave before use. [3]
 
 # Discussion
+
+While this model is not directly applicable to medicine due to its large molecule size, it could be useful in drug or polymer sorting in the future. Additionally, this model could be scaled down appropriately to fit the specs required to separate molecules found in blood.
+
+From the two inlet barbs is two paths, 0.75 mm in width. This minimizes the stacking of molecules as it is 1.5 times the diameter of the largest possible molecule that this device was designed to sort. The two paths then meet at the pinched segment, which is 0.60 mm wide (1.2 times the maximum particle width) and 1.25 mm long (slighly larger than 2x the largest particle diameter). [1] 
+
+From the pinched segment, the fluid flows into the wide segment, which is 19 mm wide. Based on the width of the pinched and broad sections, the theroetical position of each particle's flow was calculated. Since the molecules go from a large to small to large cross-sectional area, they are effectively pushed against the wall and then follow their centerline along the wall. The outlet channels were 5.25 mm wide, which was decided based on determining the midpoint between the particle positions. 
+
+All of the outlets were intended to have the same length of about 19 mm, which was determined based on the shortest path from the beginning of the outlet channel to the furthest outlet barb. All other paths were made more torutuous to approximate this length in order to ernsure similar resistances across all channels. All outlet channels tapered to a width of 0.75 mm over the length of 5.00 mm.
+
+* Based on the results of testing, could you implement any future changes to improve sorting?
 
 
 ## Supplemental Images
