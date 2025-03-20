@@ -2,12 +2,11 @@
 title: "Microfluidic Device: Pinch Flow Fractionation (PFF)"
 excerpt: "A self-designed ufluidic device that is designed to separate molecules of 125-150 um and 425-500um in solution."
 header:
-  image: /assets/img/ufluidic-cad.png
-  teaser: /assets/img/syringe-pump.png 
+  image: /assets/img/ufluidic_device.png
+  teaser: /assets/img/ufluidic_mold.png 
 gallery:
-  - image_path: assets/img/pump-cad.png
-  - image_path: assets/img/pump-wiring.png
-  - image_path: assets/img/syringe-pump.png
+  - image_path: assets/img/ufluidic-cad.png
+  - video_path: assets/img/pump-wiring.png
    
 ---
 
