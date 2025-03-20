@@ -17,20 +17,36 @@
 {% endif %}
 
 <figure class="{{ gallery_layout }} {{ include.class }}">
-  {% for video in gallery %}
-    {% if video.url %}
-      <a href="{{ video.url | relative_url }}"
-        {% if video.title %}title="{{ video.title }}"{% endif %}>
+  {% for item in gallery %}
+    {% if item.url %}
+      <a href="{{ item.url | relative_url }}"
+        {% if item.title %}title="{{ item.title }}"{% endif %}>
+        
+        {% if item.image_path %}
+          <!-- Render Image -->
+          <img src="{{ item.image_path | relative_url }}" alt="{% if item.alt %}{{ item.alt }}{% endif %}">
+        {% elsif item.video_path %}
+          <!-- Render Video -->
           <video width="600" controls>
-            <source src="{{ video.video_path | relative_url }}" type="video/mp4">
+            <source src="{{ item.video_path | relative_url }}" type="video/mp4">
             Your browser does not support the video tag.
           </video>
+        {% endif %}
+        
       </a>
     {% else %}
-      <video width="600" controls>
-        <source src="{{ video.video_path | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      
+      {% if item.image_path %}
+        <!-- Render Image -->
+        <img src="{{ item.image_path | relative_url }}" alt="{% if item.alt %}{{ item.alt }}{% endif %}">
+      {% elsif item.video_path %}
+        <!-- Render Video -->
+        <video width="600" controls>
+          <source src="{{ item.video_path | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      {% endif %}
+      
     {% endif %}
   {% endfor %}
   {% if include.caption %}
