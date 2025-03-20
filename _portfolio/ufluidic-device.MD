@@ -17,12 +17,14 @@ Microfluidic devices are miniature platforms designed to control and manipulate 
 
 One such innovation within this category is pinch flow fractionation (PFF), a technique that has gained attention for its ability to separate particles based on size, shape, and deformability. The working principle of PFF relies on controlling fluid flow through microchannels with precise pinch points that create localized pressure differences. These pressure gradients cause particles in the fluid to move along specific pathways, separating them according to their physical properties. By using the principles of fluid dynamics and precise microchannel design, PFF enhances the ability to sort and manipulate small particles with great accuracy, addressing challenges in particle analysis that were once difficult to overcome with traditional methods.
 
+The combination of these innovations has led to researchers being able to detect and monitor cancer metastasis through blood samples. Previously, the size overlap between white blood cells and circulating tumor cells (CTCs) caused issues when attempting to separate them out, but PFF allows researchers to take advantage of the deformed nature of these cells to separate and sort them while maintaining viability for testing and enrichment. [3]  
+
 
 # Instructions
 
 ### CAD Model
 
-The CAD model for my device was created in Fusion360 (Autodesk). The device was designed to be 25 x 75 mm to fit into a standard micropscope slide. There was also a 3 mm clearance on all sides to allow for the device to bond to the slide and minimize leaking. 2 inlet and 3 outlet barbs were modeled in the CAD model as well. From the two inlet barbs was two paths, 0.75 mm in width. This minimizes the stacking of molecules as it is 1.5 times the diameter of the largest possible molecule that this device was designed to sort. 
+The CAD model for my device was created in Fusion360 (Autodesk). The device was designed to be 25 x 75 mm to fit into a standard micropscope slide. There was also a 3 mm clearance on all sides to allow for the device to bond to the slide and minimize leaking. 2 inlet and 3 outlet barbs were modeled in the CAD model as well. From the two inlet barbs was two paths, 0.75 mm in width. This minimizes the stacking of molecules as it is 1.5 times the diameter of the largest possible molecule that this device was designed to sort. The two paths then meet at the pinched segment, which is 0.60 mm wide (1.2 times the maximum particle width) and 1.25 mm long (slighly larger than 2x the largest particle diameter). [1] From the pinched segment, the fluid flows into the wide segment, which is 19 mm wide. Based on the width of the pinched and broad sections, the theroetical position of each particle's flow was calculated. The outlet channels were 5.25 mm wide, which was decided based on determining the midpoint between the particle positions. All of the outlets were intended to have the same length of about 19 mm, which was determined based on the shortest path from the beginning of the outlet channel to the furthest outlet barb. All other paths were made more torutuous to approximate this length. All outlet channels tapered to a width of 0.75 mm over the length of 5.00 mm.
 
 ### Print & Cure Mold
 
@@ -39,3 +41,8 @@ The CAD model for my device was created in Fusion360 (Autodesk). The device was 
 
 ## Supplemental Images
 {% include gallery %}
+
+## References
+1. Maenaka, H., Yamada, M., Yasuda, M., & Seki, M. (2008). Continuous and size-dependent sorting of emulsion droplets using hydrodynamics in pinched microchannels. Langmuir, 24(8), 4405-4410.
+2. O'Grady, B. J., Geuy, M. D., Kim, H., Balotin, K. M., Allchin, E. R., Florian, D. C., ... & Lippmann, E. S. (2021). Rapid prototyping of cell culture microdevices using parylene-coated 3D prints. Lab on a chip, 21(24), 4814-4822.
+3. Pødenphant, M., Ashley, N., Koprowska, K., Mir, K. U., Zalkovskij, M., Bilenberg, B., … & Marie, R. (2015). Separation of cancer cells from white blood cells by pinched flow fractionation. Lab on a Chip, 15(24), 4598-4606. https://doi.org/10.1039/c5lc01014d
