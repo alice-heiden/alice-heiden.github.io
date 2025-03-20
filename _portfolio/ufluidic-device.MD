@@ -6,7 +6,7 @@ header:
   teaser: /assets/img/ufluidic_mold.png 
 gallery:
   - image_path: assets/img/ufluidic-cad.png
-  - video_path: assets/img/pump-wiring.png
+  - video_path: assets/img/ufluidic-vid-2.mp4
    
 ---
 
@@ -51,7 +51,7 @@ From the pinched segment, the fluid flows into the wide segment, which is 19 mm 
 
 All of the outlets were intended to have the same length of about 19 mm, which was determined based on the shortest path from the beginning of the outlet channel to the furthest outlet barb. All other paths were made more torutuous to approximate this length in order to ernsure similar resistances across all channels. All outlet channels tapered to a width of 0.75 mm over the length of 5.00 mm.
 
-* Based on the results of testing, could you implement any future changes to improve sorting?
+During testing, we faced some preferential flow issues with the setup, but there are still ways my device could be improved to help fight these problems. Firstly is altering the position of the pinched section to be more equal between both inlet channels. In the current design, the top channel (containing particles) is closer to the top of the pinched section, so they hit the section wall before the liquid molecules of the bottom channel do. Additionally, there might have been some miscalculating, so making the outlet channel width smaller could help with any sorting preferences.
 
 
 ## Supplemental Images
