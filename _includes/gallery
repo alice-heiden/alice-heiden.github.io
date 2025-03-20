@@ -17,31 +17,23 @@
 {% endif %}
 
 <figure class="{{ gallery_layout }} {{ include.class }}">
-  {% for img in gallery %}
-    {% if img.url %}
-      <a href="{{ img.url | relative_url }}"
-        {% if img.title %}title="{{ img.title }}"{% endif %}>
-          <img src="{{ img.image_path | relative_url }}"
-               alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+  {% for video in gallery %}
+    {% if video.url %}
+      <a href="{{ video.url | relative_url }}"
+        {% if video.title %}title="{{ video.title }}"{% endif %}>
+          <video width="600" controls>
+            <source src="{{ video.video_path | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
       </a>
     {% else %}
-      <img src="{{ img.image_path | relative_url }}"
-           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      <video width="600" controls>
+        <source src="{{ video.video_path | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     {% endif %}
   {% endfor %}
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
 </figure>
-
-<div class="video-gallery">
-  {% for item in site.data.gallery.gallery %}
-    <div class="video-item">
-      <video width="600" controls>
-        <source src="{{ item.video_path }}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  {% endfor %}
-</div>
-
