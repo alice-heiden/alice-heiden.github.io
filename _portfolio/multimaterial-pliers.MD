@@ -37,13 +37,13 @@ With my project, I began with a base design that replicated needlenose pliers an
 ### Print Settings
  
 * **Handles & Jaws**: 
- * Vertical Shells: 3 perimeters, 0 wall thickness
- * Horizontal Shells: 3 top and bottom layers
- * Infill: Rectilinear, 25% Density
+  * Vertical Shells: 3 perimeters, 0 wall thickness
+  * Horizontal Shells: 3 top and bottom layers
+  * Infill: Rectilinear, 25% Density
 * **Flexible Center**: 
- * Vertical Shells: 2 perimeters, 0 wall thickness
- * Horizontal Shells: 0 top and bottom layers
- * Infill: Grid, 25% Density
+  * Vertical Shells: 2 perimeters, 0 wall thickness
+  * Horizontal Shells: 0 top and bottom layers
+  * Infill: Grid, 25% Density
 
 
 # CAD Model:
