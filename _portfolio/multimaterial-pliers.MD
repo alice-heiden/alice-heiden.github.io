@@ -48,6 +48,7 @@ With my project, I began with a base design that replicated needlenose pliers an
 
 # CAD Model:
 
+<iframe src="https://autode.sk/4iTfSQS" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Supplemental Images:
 {% include gallery %}
