@@ -11,22 +11,22 @@ gallery:
    
 ---
 
-# Description:
+# Description: 
 
-### Multimaterial Print-in-Place
+### Multimaterial Print-in-Place 
 
 
 
-### Project & My Design
+### Project & My Design 
 
 This project focused on utilizing multimaterial printing to create a ready-to-use part. We were tasked with creating a set of pliers that could consistently pick up resistors. Due to some lab restrictions, my pliers were designed as separate pieces to be assembled with no tools.
 
-### About the iterative process
+### About the iterative process 
 
 With my project, I began with a base design that replicated needlenose pliers and a square center portion with a grid design intended to allow for shearing. I printed three options of grid density (20%, 25%, and 30%). From this, I determined that the jaws needed more surface area and the 25% density grid provided the best usability. Once this was determined, I was able to add a design to the handles and play around with some other aesthetic features.
 
 
-### Plier Specs
+### Plier Specs 
 
 * Overall Length: 155 mm
 * Jaw Length: 50 mm (Flat Section 7.5mm)
