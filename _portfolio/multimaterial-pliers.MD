@@ -15,6 +15,9 @@ gallery:
 
 ### Multimaterial Print-in-Place 
 
+Print-in-place designs are becoming increasingly popular in the prototyping realm as they allow you to create a fully functional prototype in just one go. This includes things like fitting together multiple parts, adding flexibility to a prototype, and all-in-one mechanisms. These applications can be seen in several industries as well as in the normal hobbyist. With things like hinges, snap fits, and joints being able to be printed in this fashion, the limits are seemingly endless. This has been used in instances of robotic fingers, snap-fit joints, spring-loaded boxes, and scissor lifts. This type of printing adds a sense of ease to prototyping as it reduces the stress of tolerances and allows you to get a sense of a parts mechanics fairly quickly.
+
+Successful print-in-place printing depends significantly on the choice of materials. Materials that offer a balance between rigidity and flexibility are ideal for such applications. Thermoplastic elastomers (TPE) and thermoplastic polyurethane (TPU) are commonly used due to their rubber-like flexibility, making them suitable for creating flexible joints and hinges. Conversely, materials like polylactic acid (PLA) and acrylonitrile butadiene styrene (ABS) provide the necessary rigidity for structural components. Combining these materials allows for the fabrication of complex assemblies with both flexible and rigid parts, enhancing the functionality of print-in-place designs.​
 
 
 ### Project & My Design 
@@ -44,6 +47,7 @@ With my project, I began with a base design that replicated needlenose pliers an
   * Vertical Shells: 2 perimeters, 0 wall thickness
   * Horizontal Shells: 0 top and bottom layers
   * Infill: Grid, 25% Density
+  * By having no horizontal shell layers, I was able to use the infill pattern to create flexibility. This meant that I could easily adjust the density and shape of the infill without having to tediously edit the CAD model, which allowed for a much faster iterative prototyping process.
 
 
 # CAD Model:
