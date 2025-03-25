@@ -25,7 +25,7 @@ This project focused on utilizing multimaterial printing to create a ready-to-us
 
 ### About the iterative process 
 
-With my project, I began with a base design that replicated needlenose pliers and a square center portion with a grid design intended to allow for shearing. I printed three options of grid density (20%, 25%, and 30%). From this, I determined that the jaws needed more contact surface area and the 25% density grid provided the best usability. Once this was determined, I was able to add a design to the handles and play around with some other aesthetic features.
+With my project, I began with a base design that replicated needlenose pliers and a square center portion with a grid design intended to allow for shearing. I printed three options of grid density, 20%, 25%, and 30% (discussed further in the print settings section below). From this, I determined that the jaws needed more contact surface area and the 25% density grid provided the best usability. Once this was determined, I was able to add a design to the handles and play around with some other aesthetic features.
 
 
 ### Plier Specs 
@@ -46,7 +46,7 @@ With my project, I began with a base design that replicated needlenose pliers an
   * Vertical Shells: 2 perimeters, 0 wall thickness
   * Horizontal Shells: 0 top and bottom layers
   * Infill: Grid, 25% Density
-  * By having no horizontal shell layers, I was able to use the infill pattern to create flexibility. This meant that I could easily adjust the density and shape of the infill without having to tediously edit the CAD model, which allowed for a much faster iterative prototyping process.
+  * By having no horizontal shell layers, I was able to use the infill pattern to create flexibility via shear stress. This meant that I could easily adjust the density and shape of the infill without having to tediously edit the CAD model, which allowed for a much faster iterative prototyping process.
 
 
 # CAD Model:
