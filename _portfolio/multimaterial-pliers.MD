@@ -2,10 +2,10 @@
 title: "Multimaterial Pliers"
 excerpt: "A self-designed set of 6-inch needlenose pliers printed using PLA (handles) and TPU-95A (flexible center)."
 header:
-  image: /assets/img/pliers-resistor.gif
+  image: /assets/img/mm-pliers2.JPG
   teaser: /assets/img/mm-pliers2.JPG
 gallery:
-  - image_path: assets/img/mm-pliers.JPG
+  - image_path: assets/img/pliers-resistor.gif
    
 ---
 
