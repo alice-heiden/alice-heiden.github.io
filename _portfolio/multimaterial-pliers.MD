@@ -6,7 +6,7 @@ header:
   teaser: /assets/img/mm-pliers.JPG
 gallery:
   - image_path: assets/img/pliers-resistor.gif
-  - image_path: assets/img/mm-pliers.JPG
+  - image_path: assets/img/mm-pliers2.JPG
    
 ---
 
