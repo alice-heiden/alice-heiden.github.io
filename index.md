@@ -18,7 +18,7 @@ feature_row:
     alt: "Microfluidic Device"
     title: "Microfluidic Device: Pinch Flow Fractionation (PFF)"
     excerpt: "Self-designed ufluidic device that is designed to separate molecules of 125-150 um and 425-500um in solution"
-  - image_path: assets/img/mm-pliers.JPG
+  - image_path: assets/img/mm-pliers2.JPG
     alt: "Multimaterial Pliers"
     title: "3D Printed Multimaterial Pliers"
     excerpt: "A self-designed set of 6-inch needlenose pliers printed using PLA (handles) and TPU-95A (flexible center)"
