@@ -2,12 +2,10 @@
 title: "Multimaterial Pliers"
 excerpt: "A self-designed set of 6-inch needlenose pliers printed using PLA (handles) and TPU-95A (flexible center)."
 header:
-  image: /assets/img/ufluidic_device.JPG
-  teaser: /assets/img/ufluidic_mold.JPG
+  image: /assets/img/pliers-resistor.gif
+  teaser: /assets/img/mm-pliers.JPG
 gallery:
-  - image_path: assets/img/ufluidic-cad.png
-  - image_path: assets/img/ufluidic_device.JPG
-  - image_path: assets/img/ufluidic_mold.JPG
+  - image_path: assets/img/mm-pliers.JPG
    
 ---
 
