@@ -21,18 +21,18 @@ Successful print-in-place printing depends significantly on the choice of materi
 
 ### Project & My Design 
 
-This project focused on utilizing multimaterial printing to create a ready-to-use part. We were tasked with creating a set of pliers that could consistently pick up resistors. Due to some lab restrictions, my pliers were designed as separate pieces to be assembled with no tools.
+This project focused on utilizing multimaterial printing to create a ready-to-use part. We were tasked with creating a set of pliers that could consistently pick up resistors. Due to some lab restrictions, my pliers were designed as separate pieces to be assembled with no tools. My jaws feature a 7.5mm long section at the tip that juts out in the shape of a right triangle to provide additional surface area for grabbing items. The TPU section was designed as a square with square cutouts on the corners to ensure that the pliers could fully flex. The grid design allowed shear forces to malform the TPU to create the opening and closing motions. The handles feature a patterned star design to represent Vanderbilt's logo and inspired me to use glow-in-the-dark PLA!
 
 ### About the iterative process 
 
-With my project, I began with a base design that replicated needlenose pliers and a square center portion with a grid design intended to allow for shearing. I printed three options of grid density (20%, 25%, and 30%). From this, I determined that the jaws needed more surface area and the 25% density grid provided the best usability. Once this was determined, I was able to add a design to the handles and play around with some other aesthetic features.
+With my project, I began with a base design that replicated needlenose pliers and a square center portion with a grid design intended to allow for shearing. I printed three options of grid density (20%, 25%, and 30%). From this, I determined that the jaws needed more contact surface area and the 25% density grid provided the best usability. Once this was determined, I was able to add a design to the handles and play around with some other aesthetic features.
 
 
 ### Plier Specs 
 
 * Overall Length: 155 mm
 * Jaw Length: 50 mm (Flat Section 7.5mm)
-* Jaw Capacity: 11 mm (neutral), X mm (flexed open)
+* Jaw Capacity: 11 mm
 * Handle Length: 71 mm
 
 
