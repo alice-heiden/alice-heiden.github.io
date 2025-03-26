@@ -5,8 +5,9 @@ header:
   image: /assets/img/mm-pliers.JPG
   teaser: /assets/img/mm-pliers.JPG
 gallery:
+  - image_path: assets/img/first-pliers.png
+  - image_path: assets/img/final-pliers.png
   - image_path: assets/img/pliers-resistor.gif
-  - image_path: assets/img/mm-pliers2.JPG
    
 ---
 
@@ -54,4 +55,4 @@ With my project, I began with a base design that replicated needlenose pliers an
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4769e6a965613a860?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Supplemental Images:
-{% include gallery %}
+{% include gallery caption="First Two Iterations, Final Pliers, & Demo" %}
