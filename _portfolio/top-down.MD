@@ -43,7 +43,6 @@ This print utilized a mixture of TPU and PLA parts.
   * Detent Backing & Attachment: PLA was chosen mainly for strength and high detail level.
   * Detent Mechanism: PLA was chosen for its rigidity.
 
-
 # CAD Model:
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a454721c9b2610f287?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
