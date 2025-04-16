@@ -4,7 +4,6 @@ excerpt: "A phone holder for the iPhone 15 Pro Max, designed to fit a 1" bike ha
 header:
   image: /assets/img/detent-ss.PNG
   teaser: /assets/img/phone-holder-real.JPG
-
 ---
 
 # Description: 
