@@ -2,12 +2,8 @@
 title: "Bike Mount Phone Holder"
 excerpt: "A phone holder for the iPhone 15 Pro Max, designed to fit a 1" bike handlebar. This phone holder locks into place and allows you to easily rotate your phone from vertical to horizontal on-the-go!"
 header:
-  image: /assets/img/mm-pliers.JPG
-  teaser: /assets/img/mm-pliers.JPG
-gallery:
-  - image_path: assets/img/first-pliers.png
-  - image_path: assets/img/final-pliers.png
-  - image_path: assets/img/pliers-resistor.gif
+  image: /assets/img/detent-ss.JPG
+  teaser: /assets/img/phone-holder-real.JPG
    
 ---
 
@@ -15,10 +11,11 @@ gallery:
 
 ### Top-Down Modeling 
 
-Print-in-place designs are becoming increasingly popular in the prototyping realm as they allow you to create a fully functional prototype in just one go. This includes things like fitting together multiple parts, adding flexibility to a prototype, and all-in-one mechanisms. These applications can be seen in several industries as well as in the normal hobbyist. With things like hinges, snap fits, and joints being able to be printed in this fashion, the limits are seemingly endless. This has been used in instances of robotic fingers, snap-fit joints, spring-loaded boxes, and scissor lifts. This type of printing adds a sense of ease to prototyping as it reduces the stress of tolerances and allows you to get a sense of a parts mechanics fairly quickly.
+Top-down modeling is a subset of CAD design that involves designing an assembly of parts all within one design. Each part of the assembly is created as a new component where it would need to be placed in real life, allowing you more flexibility with your joints. You can use 'as-built joints' in Fusion to ensure that all of your pieces are in place as intended through the design.
 
-Successful print-in-place printing depends significantly on the choice of materials. Materials that offer a balance between rigidity and flexibility are ideal for such applications. Thermoplastic elastomers (TPE) and thermoplastic polyurethane (TPU) are commonly used due to their rubber-like flexibility, making them suitable for creating flexible joints and hinges. Conversely, materials like polylactic acid (PLA) and acrylonitrile butadiene styrene (ABS) provide the necessary rigidity for structural components. Combining these materials allows for the fabrication of complex assemblies with both flexible and rigid parts, enhancing the functionality of print-in-place designs.​
+This is super useful as it can be leveraged to create parts much quicker without having to reference multiple files, and then all parameters can be in one hub. It also allows you to utilize projections as a key mechanism when creating holes or other ways to fit parts together rather than having to reference each separate design and create unnecessary parameters that crowd the workspace.
 
+In this project, top-down modeling allowed me to really utilize the unique shapes I was creating and allowed me to build some more complex parts (even if they didn't exactly end up working as intended.) I was able to project my detent mechanism from component to component in order to keep myself from rebuilding the same patterns. I was also able to utilize the rendering of my phone to build an accurately sized phone holder without having to reference the dimension sheet. Finally, I was able to create my attachment mechanism through projections rather than having to individually reference each point, which made prototyping each iteration a much quicker process.
 
 ### Project & My Design 
 
@@ -52,4 +49,3 @@ This print utilized a mixture of TPU and PLA parts.
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a454721c9b2610f287?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 # Supplemental Images:
-{% include gallery %}
