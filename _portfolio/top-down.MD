@@ -2,7 +2,7 @@
 title: "Bike Mount Phone Holder"
 excerpt: "A phone holder for the iPhone 15 Pro Max, designed to fit a 1" bike handlebar. This phone holder locks into place and allows you to easily rotate your phone from vertical to horizontal on-the-go!"
 header:
-  image: /assets/img/detent-ss.PNG
+  image: /assets/img/detent-ss.png
   teaser: /assets/img/phone-holder-real.JPG
 ---
 
