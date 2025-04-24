@@ -16,6 +16,7 @@ gallery:
   - image_path: assets/img/gd6.png
   - image_path: assets/img/preserve-geom.png
   - image_path: assets/img/obstacle-geom.png
+
 ---
 
 # Discussion:
