@@ -5,18 +5,17 @@ header:
   image: /assets/img/side-view.JPG
   teaser: /assets/img/bag-hook.JPG
 gallery:
-  - image_path: assets/img/top-view.JPG
-  - image_path: assets/img/backpack-hook.JPG
-  - image_path: assets/img/realworld-ex.jpg
-  - image_path: assets/img/gd1.png
-  - image_path: assets/img/gd2.png
-  - image_path: assets/img/gd3.png
-  - image_path: assets/img/gd4.png
-  - image_path: assets/img/gd5.png
-  - image_path: assets/img/gd6.png
-  - image_path: assets/img/preserve-geom.png
-  - image_path: assets/img/obstacle-geom.png
-
+  - image_path: /assets/img/top-view.JPG
+  - image_path: /assets/img/backpack-hook.JPG
+  - image_path: /assets/img/realworld-ex.jpg
+  - image_path: /assets/img/gd1.png
+  - image_path: /assets/img/gd2.png
+  - image_path: /assets/img/gd3.png
+  - image_path: /assets/img/gd4.png
+  - image_path: /assets/img/gd5.png
+  - image_path: /assets/img/gd6.png
+  - image_path: /assets/img/preserve-geom.png
+  - image_path: /assets/img/obstacle-geom.png
 ---
 
 # Discussion:
