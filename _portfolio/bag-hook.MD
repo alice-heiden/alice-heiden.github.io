@@ -4,18 +4,16 @@ excerpt: "A desktop purse, headphone, and key hook set created through generativ
 header:
   image: /assets/img/side-view.JPG
   teaser: /assets/img/bag-hook.JPG
-gallery1:
+gallery:
   - image_path: assets/img/top-view.JPG
   - image_path: assets/img/backpack-hook.JPG
   - image_path: assets/img/realworld-ex.jpg
-gallery2:
   - image_path: assets/img/gd1.png
   - image_path: assets/img/gd2.png
   - image_path: assets/img/gd3.png
   - image_path: assets/img/gd4.png
   - image_path: assets/img/gd5.png
   - image_path: assets/img/gd6.png
-gallery3:
   - image_path: assets/img/preserve-geom.png
   - image_path: assets/img/obstacle-geom.png
 ---
@@ -31,7 +29,7 @@ While a small problem, this saves me a bit of real estate on my desk that is typ
 
 The preserve geometries in my design were the desktop mount and the three hooks: keys, headphones, and purse. The goal of this was to ensure that the hooks remained the right size and all connected through the tree made by generative design. The fixed preserve geometry was the face of the mounting plate that rested on the table. 
 Obstacle geometry was iterated throughout the process. At first, I created three obstacles where the items would sit on their hooks. After my first iteration, I realized that there needed to be an obstacle of where the table would be underneath the mount, which I decided to make 25 mm thick. As I continued iterating the design, I added obstacles around the curve of the hook to ensure that the design left space for things like the keys to slide on and off of the hook. Since these parts created a lot of force on the hooks, the design was attempting to add supports extending from the mounting plate to the hooks, but the extra obstacle geometries ensured that these did not interfere with the use cases.
-{% include gallery3 caption="Final Preserve and Obstacle Geometries" %}
+
 
 ### Load Case Application and Structural Constraints
 
@@ -70,5 +68,4 @@ I think that this could be quite useful in mechanical and civil fields, as you c
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a41fab5114fe1b8b58?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
  
 # Supplemental Images:
-{% include gallery3 caption="Iterations of the Generative Designs" %}
-{% include gallery1 caption="Final Prototype" %}
+{% include gallery caption="Final Prototype, Generative Design Iterations, and Preserve & Obstacle Geometry" %}
