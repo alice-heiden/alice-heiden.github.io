@@ -18,6 +18,7 @@ gallery2:
 gallery3:
   - image_path: assets/img/preserve-geom.png
   - image_path: assets/img/obstacle-geom.png
+
 ---
 
 # Discussion: 
